@@ -5,3 +5,7 @@ description: A GitHub Action for gha-test
 runs:
   using: node16
   main: dist/index.js
+inputs:
+  aws-region:
+    description: The AWS REGION that will be set in the environment
+    default: us-east-1

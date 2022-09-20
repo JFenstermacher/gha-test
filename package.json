@@ -44,7 +44,11 @@
   "dependencies": {
     "@actions/core": "^1.9.1",
     "@actions/github": "^5.0.3",
-    "@aws-sdk/client-sts": "^3.171.0"
+    "@aws-sdk/client-sts": "^3.171.0",
+    "@aws-sdk/signature-v4-multi-region": "^3.171.0",
+    "@aws-sdk/util-create-request": "^3.171.0",
+    "@aws-sdk/util-format-url": "^3.171.0",
+    "axios": "^0.27.2"
   },
   "main": "lib/index.js",
   "license": "Apache-2.0",
